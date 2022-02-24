@@ -1,6 +1,39 @@
-# WebhookTesterUi
+# Webhook Tester UI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+
+## Contributors
+
+<div align="center">
+    <table>
+        <tr>
+            <td align="center">
+                <img style="border-radius: 50%;" src="https://github.com/OtavioArruda.png?size=200" width="120px;" alt=""/>
+                <br/><sub><b>Otávio Arruda</b></sub></a><br/>
+                <a href="https://barradev.com.br/" title="/Dev">🚀</a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/gabriel-arrvda">
+                    <img style="border-radius: 50%;" src="https://github.com/gabriel-arrvda.png?size=200" width="120px;" alt=""/>
+                    <br/><sub><b>Gabriel Arruda</b></sub></a><br/>
+                </a>
+                <a href="https://barradev.com.br/" title="/Dev">🚀</a>
+            </td>
+            <td align="center">
+                <img style="border-radius: 50%;" src="https://github.com/Vinicius-Lima-Melo.png?size=200" width="120px;" alt=""/>
+                <br/><sub><b>Vinicius Lima</b></sub></a><br/>
+                <a href="https://barradev.com.br/" title="/Dev">🚀</a>
+            </td>
+            <td align="center">
+                <img style="border-radius: 50%;" src="https://github.com/dalvan-lima.png?size=200" width="120px;" alt=""/>
+                <br/><sub><b>Dalvan Lima</b></sub></a><br/>
+                <a href="https://barradev.com.br/" title="/Dev">🚀</a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+![divider](./w3tec-divider.png)
 
 ## Development server
 
