@@ -1,17 +1,39 @@
 .main-container {
   // @apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500;
   // background-size: 300% 300%;
-  background-image: url('../assets/baixados.png');
-  animation: gradient 10s ease infinite;
+  // background-image: url('../assets/baixados.png');
+  // animation: gradient 10s ease infinite;
+}
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #ff00cc 50%, #333399 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
 }
 
 .child-container, .side-panel, .header-panel{
   height: 75vh;
-  background-color: rgba(255,255,255,0.4);
+  background-color: rgba(16 18 27 / 40%);
   border-radius: 20px;
-  border: 1pt solid white;
+  border: 1pt solid rgba(113 119 144 / 25%);
   box-sizing: border-box;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
 
   &.child-container{
     width: 70%;
@@ -36,5 +58,14 @@
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
   }
 }
