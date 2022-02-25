@@ -1,0 +1,40 @@
+.main-container {
+  // @apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500;
+  // background-size: 300% 300%;
+  background-image: url('../assets/baixados.png');
+  animation: gradient 10s ease infinite;
+}
+
+.child-container, .side-panel, .header-panel{
+  height: 75vh;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 20px;
+  border: 1pt solid white;
+  box-sizing: border-box;
+  backdrop-filter: blur(10px);
+
+  &.child-container{
+    width: 70%;
+  }
+
+  &.side-panel{
+    width: 25%;
+  }
+
+  &.header-panel{
+    height: 15vh;
+    width: 97%;
+  }
+}
+  
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
