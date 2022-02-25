@@ -20,9 +20,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
                 <a href="https://barradev.com.br/" title="/Dev">🚀</a>
             </td>
             <td align="center">
-                <img style="border-radius: 50%;" src="https://github.com/Vinicius-Lima-Melo.png?size=200" width="120px;" alt=""/>
-                <br/><sub><b>Vinicius Lima</b></sub></a><br/>
-                <a href="https://barradev.com.br/" title="/Dev">🚀</a>
+                <a href="https://github.com/vinicius-lima-melo">
+                  <img style="border-radius: 50%;" src="https://github.com/Vinicius-Lima-Melo.png?size=200" width="120px;" alt=""/>
+                  <br/><sub><b>Vinicius Lima</b></sub></a><br/>
+                  <a href="https://barradev.com.br/" title="/Dev">🚀</a>
             </td>
             <td align="center">
                 <img style="border-radius: 50%;" src="https://github.com/dalvan-lima.png?size=200" width="120px;" alt=""/>
